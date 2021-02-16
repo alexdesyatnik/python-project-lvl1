@@ -1,7 +1,10 @@
 lint:
 	poetry run flake8 brain_games
 
-build:
+clean:
+	rm -f dist/*
+
+build: clean
 	poetry build
 
 install:
@@ -10,9 +13,14 @@ install:
 publish:
 	poetry publish --dry-run
 
-package-install:
+package-install: package-uninstall
 	python3 -m pip install --user dist/*.whl
+
+package-uninstall:
+	python3 -m pip uninstall -y dist/*.whl
 
 brain-games:
 	poetry run brain-games
 
+brain-even:
+	poetry run brain-even
