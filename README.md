@@ -14,3 +14,7 @@
 ### Brain-GCD Test Drive
 
 [![asciicast](https://asciinema.org/a/6oedl9jg05offtgSVKFJsScLy.svg)](https://asciinema.org/a/6oedl9jg05offtgSVKFJsScLy)
+
+### Brain-Progression Test Drive
+
+[![asciicast](https://asciinema.org/a/XA0WVWES0SP2uZfChCSi8fJRn.svg)](https://asciinema.org/a/XA0WVWES0SP2uZfChCSi8fJRn)
