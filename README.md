@@ -10,3 +10,7 @@
 ### Brain-Calc Test Drive
 
 [![asciicast](https://asciinema.org/a/FX443DPaa0edZTZUc1xkyPfHJ.svg)](https://asciinema.org/a/FX443DPaa0edZTZUc1xkyPfHJ)
+
+### Brain-GCD Test Drive
+
+[![asciicast](https://asciinema.org/a/6oedl9jg05offtgSVKFJsScLy.svg)](https://asciinema.org/a/6oedl9jg05offtgSVKFJsScLy)
