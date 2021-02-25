@@ -21,12 +21,12 @@ def ask_question(question, correct_answer):
     return result
 
 
-def play_game(game_prompt, make_question_fn):
+def play_game(game_module):
     username = welcome_user()
-    print(game_prompt)
+    print(game_module.PROMPT)
     MAX_GAME_ROUNDS = 3
     for _ in range(MAX_GAME_ROUNDS):
-        if not ask_question(*make_question_fn()):
+        if not ask_question(*game_module.make_question()):
             print(f"Let's try again, {username}!")
             break
     else:

@@ -5,7 +5,7 @@ from brain_games.games import even_game
 
 
 def main():
-    play_game(even_game.PROMPT, even_game.make_question)
+    play_game(even_game)
 
 
 if __name__ == "__main__":

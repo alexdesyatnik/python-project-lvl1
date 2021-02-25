@@ -5,7 +5,7 @@ from brain_games.games import gcd_game
 
 
 def main():
-    play_game(gcd_game.PROMPT, gcd_game.make_question)
+    play_game(gcd_game)
 
 
 if __name__ == "__main__":
