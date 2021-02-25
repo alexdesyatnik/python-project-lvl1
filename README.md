@@ -18,3 +18,7 @@
 ### Brain-Progression Test Drive
 
 [![asciicast](https://asciinema.org/a/XA0WVWES0SP2uZfChCSi8fJRn.svg)](https://asciinema.org/a/XA0WVWES0SP2uZfChCSi8fJRn)
+
+### Brain-Prime Test Drive
+
+[![asciicast](https://asciinema.org/a/7p0nuPzXiAfCKzaA1Vq249YoM.svg)](https://asciinema.org/a/7p0nuPzXiAfCKzaA1Vq249YoM)
