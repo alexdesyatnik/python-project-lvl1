@@ -1,5 +1,4 @@
 import prompt
-from random import randint
 
 
 def welcome_user():
@@ -9,11 +8,9 @@ def welcome_user():
     return name
 
 
-def even_game_guess():
-    """Makes a random integer, asks used if it's even, checks the answer"""
-    number = randint(1, 100)
-    correct_answer = "yes" if number % 2 == 0 else "no"
-    print(f"Question: {number}")
+def ask_question(question, correct_answer):
+    """Asks user a question and check the answer"""
+    print(f"Question: {question}")
     answer = prompt.string("Your answer: ").lower()
     result = answer == correct_answer
     if result:
@@ -24,11 +21,13 @@ def even_game_guess():
     return result
 
 
-def play_even_game(name):
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    for _ in range(3):
-        if not even_game_guess():
-            print(f"Let's try again, {name}!")
+def play_game(game_prompt, make_question_fn):
+    username = welcome_user()
+    print(game_prompt)
+    MAX_GAME_ROUNDS = 3
+    for _ in range(MAX_GAME_ROUNDS):
+        if not ask_question(*make_question_fn()):
+            print(f"Let's try again, {username}!")
             break
     else:
-        print(f"Congratulations, {name}!")
+        print(f"Congratulations, {username}!")

@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
-from brain_games.cli import play_even_game, welcome_user
+from brain_games.cli import play_game
+from brain_games.games import even_game
 
 
 def main():
-    name = welcome_user()
-    play_even_game(name)
+    play_game(even_game.PROMPT, even_game.make_question)
