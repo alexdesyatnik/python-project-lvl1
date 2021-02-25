@@ -6,3 +6,7 @@
 ### Brain-Even Test Drive
 
 [![asciicast](https://asciinema.org/a/HR91LsEQXIhCosNTS1gRP78yL.svg)](https://asciinema.org/a/HR91LsEQXIhCosNTS1gRP78yL)
+
+### Brain-Calc Test Drive
+
+[![asciicast](https://asciinema.org/a/FX443DPaa0edZTZUc1xkyPfHJ.svg)](https://asciinema.org/a/FX443DPaa0edZTZUc1xkyPfHJ)
